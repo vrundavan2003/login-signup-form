@@ -119,7 +119,7 @@ function validateForm(){
             document.getElementById("datealert").innerHTML = "birthdate should not be blank*";
         }
         else{
-            document.getElementById("datealert").innerHTML = "birthdate should bevalid*";
+            document.getElementById("datealert").innerHTML = "you must have 18 years old*";
         }
         document.getElementById('date').style.borderColor = 'red';
         document.getElementById('date').style.borderWidth = '2px';
